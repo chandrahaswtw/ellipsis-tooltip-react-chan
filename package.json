@@ -1,0 +1,40 @@
+{
+  "name": "ellipsis-tooltip-react-chan",
+  "version": "1.0.0",
+  "description": "Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "ellipsis-tooltip",
+    "ellipsis-tooltip-hover",
+    "ellipsis-react",
+    "ellipsis-tooltip-react",
+    "ellipsis-tooltip-react-chan",
+    "ellipsis",
+    "tooltip",
+    "hover-react",
+    "hover"
+  ],
+  "author": "CHANDRAHAS BALLEDA",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.0",
+    "react-tooltip": "^4.2.10",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  }
+}
