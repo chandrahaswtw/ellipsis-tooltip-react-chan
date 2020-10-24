@@ -27,8 +27,8 @@ const EllipsisToolTip = (props) => {
     });
 
     return (
-        <span>
-            <div data-tip data-for={tid} className="EllipsisToolTipOuterDivStyles" onMouseEnter={mouseEnterHandler}>
+        <React.Fragment>
+            <div data-tip data-for={tid} className="OuterDivStylesEllipsisToolTipChan" onMouseEnter={mouseEnterHandler} style={props.style}>
                 {props.children}
             </div>
             {
@@ -36,7 +36,7 @@ const EllipsisToolTip = (props) => {
                     {props.children}
                 </ReactTooltip>
             }
-        </span>
+        </React.Fragment>
     )
 }
 
@@ -45,7 +45,8 @@ EllipsisToolTip.propTypes = {
         PropTypes.string,
         PropTypes.node
     ]).isRequired,
-    options : PropTypes.object
+    options : PropTypes.object,
+    style : PropTypes.object
 }
 
 export default EllipsisToolTip;
