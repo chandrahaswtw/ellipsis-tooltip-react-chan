@@ -1,18 +1,17 @@
 # ellipsis-tooltip-react-chan
 
-> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. This uses [react-tooltip](https://www.npmjs.com/package/react-tooltip) package to display truncated content & [uuid](https://www.npmjs.com/package/uuid) to generate unique id's for tooltips.  
+> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. It shows tooltip on hover only when the text is overflown, else it looks like a normal element. This is dynamic i.e., when screen is minimized more elements get truncated it dynamically show tooltips wherever necessary.
+ This uses [react-tooltip](https://www.npmjs.com/package/react-tooltip) package to display truncated content & [uuid](https://www.npmjs.com/package/uuid) to generate unique id's for tooltips.  
 
-DEMO : Currently working on it. Will be updating the documentation with the URL for the same. 
+**DEMO** : Currently working on it. Will be updating the documentation with the URL for the same. 
 
-**NOTE**: It shows tooltip on hover only when the text is overflown, else it looks like a normal element. This is dynamic i.e., When screen is minimized more elements get crunched it dynamically shows more tooltips wherever necessary.
-
+**NOTE**: No support for Typescript yet. I will be creating a type definition package for this soon.
 
 ## INSTALLATION
 
 ```
 npm install --save ellipsis-tooltip-react-chan
 ```
-**NOTE**: No support for Typescript yet. I will be creating a type definition package for this soon.
 
 ## USAGE
 
