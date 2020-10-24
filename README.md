@@ -1,6 +1,6 @@
 # ellipsis-tooltip-react-chan
 
-> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. It shows tooltip on hover only when the text is overflown, else it looks like a normal element. This is dynamic i.e., when screen is minimized more elements get truncated it dynamically show tooltips wherever necessary.
+> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. It shows tooltip only when the text is overflown, else it looks like a normal element. This is dynamic i.e., when screen is minimized more elements get truncated it dynamically show tooltips wherever necessary.
  This uses [react-tooltip](https://www.npmjs.com/package/react-tooltip) package to display truncated content & [uuid](https://www.npmjs.com/package/uuid) to generate unique id's for tooltips.  
 
 **DEMO** : Currently working on it. Will be updating the documentation with the URL for the same. 
@@ -69,7 +69,7 @@ export default App;
 <table>
   <tr>
     <td style={{maxWidth : "10vw"}}>
-      <EllipsisToolTip>
+      <EllipsisToolTip options={options}>
         Lorem ipsum dolor sit amet consectetur
       </EllipsisToolTip>
     </td>
@@ -87,7 +87,7 @@ When it recieves children, it wraps around an       ```inline-block``` element t
 ```
 <tr>
   <td style={{maxWidth : "10vw"}}>
-    <EllipsisToolTip style={{float: "left"}}>
+    <EllipsisToolTip style={{float: "left"}} options={options}>
       Lorem ipsum dolor sit amet consectetur
     </EllipsisToolTip>
   </td>
