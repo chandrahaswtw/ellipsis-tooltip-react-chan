@@ -80,6 +80,8 @@ and etc.....
 
 ## STYLES
 
+>Availble from version 1.0.7
+
 When it recieves children, it wraps around an       ```inline-block``` element to give the effect & ```inline-block``` elements have extra space around them. So, when placed in a table cell or CSS Grid, it gives a wired look. So we can pass style explicitly ```float:left``` as shown below to prevent this. Use this hack whenever necessary.
 
 ```
