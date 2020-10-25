@@ -99,5 +99,5 @@ By default, the ```font``` is inherited. If we want to pass any extra styles, yo
 
 # FINAL NOTE
 
-I am extremely glad that you thought of using this package in you project. If you like my work, I would really appreciate if you give me a **star** on [github repo](https://github.com/chandrahaswtw/ellipsis-tooltip-react-chan). If you stumble across any issues, kindly raise an issue for the same.
+I am extremely glad that you thought of using this package in you project. If you like my work, I would really appreciate if you provide a **star** on [github repo](https://github.com/chandrahaswtw/ellipsis-tooltip-react-chan). If you stumble across any issues, kindly raise an issue for the same.
 
