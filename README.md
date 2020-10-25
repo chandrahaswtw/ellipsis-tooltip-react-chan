@@ -97,7 +97,7 @@ When it recieves children, it wraps around an       ```inline-block``` element t
 
 By default, the ```font``` is inherited. If we want to pass any extra styles, you can make use of ```style``` prop as shown above. This doesn't affect the tooltip styles but only the wrapper I mentioned. If you wish to change the tool tip styles, you need to send the ```className``` in ```options```. Go through the [react-tooltip](https://www.npmjs.com/package/react-tooltip) documentation for more information. I have briefly mentioned about styling the tooltip in my [DEMO](https://chandrahaswtw.github.io/ellipsis-tooltip-demo/) as well under TABLE/CSS GRID section. Have a look if necessary.
 
-### FINAL NOTE
+# FINAL NOTE
 
-I am extremely glad that you thought of using this package in you project. If you like my work, I would really appreciate if you give me a **star** on [github repo](https://github.com/chandrahaswtw/ellipsis-tooltip-react-chan). If you stumble across any issues, kindly raise an open issue on github repo page.
+I am extremely glad that you thought of using this package in you project. If you like my work, I would really appreciate if you give me a **star** on [github repo](https://github.com/chandrahaswtw/ellipsis-tooltip-react-chan). If you stumble across any issues, kindly raise an issue for the same.
 

@@ -1,6 +1,6 @@
 {
   "name": "ellipsis-tooltip-react-chan",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover.",
   "main": "./dist/index.js",
   "scripts": {
