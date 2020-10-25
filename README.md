@@ -1,22 +1,23 @@
 # ellipsis-tooltip-react-chan
 
-> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. It shows tooltip only when the text is overflown, else it looks like a normal element. This is dynamic i.e., when screen is minimized more elements get truncated it dynamically show tooltips wherever necessary.
+> Hi there, this package helps in truncating the overflown text or inline element with ellipsis & shows tooltip on hover. It comes into effect only when the text is overflown, else it looks like a normal element. This is dynamic i.e., when screen is minimized, more elements get truncated & it dynamically show tooltips wherever necessary.
  This uses [react-tooltip](https://www.npmjs.com/package/react-tooltip) package to display truncated content & [uuid](https://www.npmjs.com/package/uuid) to generate unique id's for tooltips.  
 
-**DEMO** : Currently working on it. Will be updating the documentation with the URL for the same. 
+# DEMO
+**[CLICK HERE FOR THE DEMO](https://chandrahaswtw.github.io/ellipsis-tooltip-demo/)**
 
-**NOTE**: No support for Typescript yet. I will be creating a type definition package for this soon.
 
 ## INSTALLATION
 
 ```
 npm install --save ellipsis-tooltip-react-chan
 ```
+**NOTE**: No support for Typescript yet. I will be creating a type definition package for this soon.
 
 ## USAGE
 
-All we need is to wrap this with any element that has a fixed width. To configure the tooltip settings, it accepts ```options``` as prop. From the below example ```place``` refers to place of tooltip. It can be ```left```,```right```,```top```,```bottom```. You can find more information about other options at 
-[react-tooltip](https://www.npmjs.com/package/react-tooltip)
+All we need is to wrap this with any element that has a fixed width. To configure the tooltip settings, it accepts ```options``` as prop. From the below example, ```place``` refers to place of tooltip. It can be ```left```,```right```,```top```,```bottom```. You can find more information about other options at 
+[react-tooltip](https://www.npmjs.com/package/react-tooltip) documentation.
 
 **NOTE**: The effect works only if you pass direct text or any inline or inline-block elements as children. See the examples below:
 
@@ -80,7 +81,7 @@ and etc.....
 
 ## STYLES
 
->Availble from version 1.0.7
+>Available from version 1.0.7
 
 When it recieves children, it wraps around an       ```inline-block``` element to give the effect & ```inline-block``` elements have extra space around them. So, when placed in a table cell or CSS Grid, it gives a wired look. So we can pass style explicitly ```float:left``` as shown below to prevent this. Use this hack whenever necessary.
 
@@ -94,9 +95,9 @@ When it recieves children, it wraps around an       ```inline-block``` element t
 </tr>
 ```
 
-By default, the ```font``` is inherited. If we want to pass any extra styles, you can make use of ```style``` prop as shown above.
+By default, the ```font``` is inherited. If we want to pass any extra styles, you can make use of ```style``` prop as shown above. This doesn't affect the tooltip styles but only the wrapper I mentioned. If you wish to change the tool tip styles, you need to send the ```className``` in ```options```. Go through the [react-tooltip](https://www.npmjs.com/package/react-tooltip) documentation for more information. I have briefly mentioned about styling the tooltip in my [DEMO](https://chandrahaswtw.github.io/ellipsis-tooltip-demo/) as well under TABLE/CSS GRID section. Have a look if necessary.
 
-### THANK YOU
+### FINAL NOTE
 
-Thank you for using this package in your project. If you stumble across any issues, kindly raise an open issue on github repo page.
+I am extremely glad that you thought of using this package in you project. If you like my work, I would really appreciate if you give me a **star** on [github repo](https://github.com/chandrahaswtw/ellipsis-tooltip-react-chan). If you stumble across any issues, kindly raise an open issue on github repo page.
 
