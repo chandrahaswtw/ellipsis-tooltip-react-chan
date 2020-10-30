@@ -1,10 +1,15 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import './EllipsisToolTip.css';
-import ReactTooltip from "react-tooltip";
+import './index.css';
+import ReactTooltip from 'react-tooltip';
 import { v4 as uuidv4 } from 'uuid';
-import PropTypes from 'prop-types';
 
-const EllipsisToolTip = (props) => {
+interface propTypes {
+    options?: any;
+    style? : React.CSSProperties,
+    children: React.ReactNode
+}
+
+const EllipsisToolTip: React.FC<propTypes> = (props) => {
 
     // TOOL TIP STATE
     const [showTooltip, setShowTooltip] = useState(false);
@@ -38,15 +43,6 @@ const EllipsisToolTip = (props) => {
             }
         </React.Fragment>
     )
-}
-
-EllipsisToolTip.propTypes = {
-    children: PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.node
-    ]).isRequired,
-    options : PropTypes.object,
-    style : PropTypes.object
 }
 
 export default EllipsisToolTip;

@@ -12,7 +12,7 @@
 ```
 npm install --save ellipsis-tooltip-react-chan
 ```
-**NOTE**: No support for Typescript yet. I will be creating a type definition package for this soon.
+**NOTE**: This package includes it's own type definitions. No need to install external @types package to work with typescript.
 
 ## USAGE
 
@@ -65,9 +65,9 @@ export default App;
 ```
 
 ### Table cell
-
+When you are explicitly adding the width to the columns, do not forget to apply ```table-layout: fixed``` as the table style.
 ```
-<table>
+<table style={{tableLayout : "fixed"}}>
   <tr>
     <td style={{maxWidth : "10vw"}}>
       <EllipsisToolTip options={options}>
