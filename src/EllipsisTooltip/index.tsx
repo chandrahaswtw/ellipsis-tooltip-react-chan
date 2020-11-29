@@ -26,10 +26,6 @@ const EllipsisToolTip: React.FC<propTypes> = (props) => {
         }
     }, [showTooltip, setShowTooltip])
 
-    // REBUILDING THE CODE --> CONDITIONAL REBUILDING
-    useEffect(() => {
-        ReactTooltip.rebuild();
-    });
 
     return (
         <React.Fragment>
