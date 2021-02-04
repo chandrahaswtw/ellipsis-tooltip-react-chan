@@ -33,7 +33,7 @@ const EllipsisToolTip: React.FC<propTypes> = (props) => {
                 {props.children}
             </div>
             {
-                showTooltip && <ReactTooltip id={tid} effect="solid" backgroundColor="black" {...props.options}>
+                showTooltip && <ReactTooltip id={tid} effect="solid" {...props.options}>
                     {props.children}
                 </ReactTooltip>
             }

@@ -81,8 +81,6 @@ and etc.....
 
 ## STYLES
 
->Available from version 1.0.7
-
 When it recieves children, it wraps around an       ```inline-block``` element to give the effect & ```inline-block``` elements have extra space around them. So, when placed in a table cell or CSS Grid, it gives a wired look. So we can pass style explicitly ```float:left``` as shown below to prevent this. Use this hack whenever necessary.
 
 ```
@@ -96,6 +94,21 @@ When it recieves children, it wraps around an       ```inline-block``` element t
 ```
 
 By default, the ```font``` is inherited. If we want to pass any extra styles, you can make use of ```style``` prop as shown above. This doesn't affect the tooltip styles but only the wrapper I mentioned. If you wish to change the tool tip styles, you need to send the ```className``` in ```options```. Go through the [react-tooltip](https://www.npmjs.com/package/react-tooltip) documentation for more information. I have briefly mentioned about styling the tooltip in my [DEMO](https://chandrahaswtw.github.io/ellipsis-tooltip-demo/) as well under TABLE/CSS GRID section. Have a look if necessary.
+
+
+## DYNAMIC TOOLTIP
+
+You might run into an issue when there is state change and tool tips aren't diplaying properly, you might have to restart the react-toolip as below. 
+
+```
+import ReactTooltip from "react-tooltip";
+
+useEffect(() => {
+        ReactTooltip.rebuild();
+},[pass dependency array]);
+```
+
+
 
 # FINAL NOTE
 
