@@ -12,7 +12,7 @@
 ```
 npm install --save ellipsis-tooltip-react-chan
 ```
-**NOTE**: This package includes it's own type definitions. No need to install external @types package to work with typescript.
+**NOTE**: Type definitions already included to work with typescript
 
 ## USAGE
 
